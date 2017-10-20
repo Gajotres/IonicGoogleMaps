@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Platform } from 'ionic-angular';
 
 declare var google;
 
@@ -11,7 +10,7 @@ export class HomePage {
 
 	map: any;
 
-	constructor(private platform: Platform) {
+	constructor() {
 
 	}
 
